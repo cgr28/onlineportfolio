@@ -1,0 +1,33 @@
+@use "../standard";
+
+.social-bar {
+    
+    color: #000;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    #header-title {
+        font-family: standard.$header-font;
+        font-weight: bold;
+    }
+    .link {
+        font-family: standard.$header-font;
+        font-weight: bold;
+
+        a {
+            color: black;
+            opacity: 75%;
+            transition: opacity .5s;
+        }
+        a:hover {
+            opacity: 100%;
+        }
+    }
+
+
+}

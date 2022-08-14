@@ -1,0 +1,21 @@
+@use "../standard";
+
+.experience-card {
+    width: 100%;
+    border-radius: 0% !important;
+    border: none !important;
+
+    .card-body {
+        border-bottom: 2px dotted standard.$border-color;
+    }
+
+    img {
+        border-radius: 0% !important;
+        border: 1px solid black;
+        width: 65%;
+    }
+    .card-title {
+        font-weight: bold;
+        font-family: 'Roboto Mono', monospace;
+    }
+}

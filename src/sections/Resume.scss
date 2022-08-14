@@ -1,0 +1,38 @@
+@use "../standard";
+
+.resume {    
+  
+  .resume-img {
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .download-button {
+    border: 1px solid black;
+    color: black;
+        font-weight: bold;
+        font-family: standard.$header-font;
+        box-sizing: border-box;
+        width: 100%;
+        transition: background-color .25s, color .25s, border .25s, box-shadow .25s;
+      }
+      
+      .download-button:hover {
+        color: white;
+        border: 1px solid white;
+        background-color: black;
+      }
+      
+      .download-button:active {
+        box-shadow: 0 0 10px 5px #d1d3d4;
+      }
+      
+    }
+    
+#resume {
+    max-width: 1040px;
+    scroll-margin-top: standard.$scroll-margin-length;
+}

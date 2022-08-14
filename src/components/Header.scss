@@ -1,0 +1,13 @@
+@use "../standard";
+
+.header {
+    
+    #header-title {
+        font-family: standard.$header-font;
+        font-weight: bold;
+    }
+    #header-caption {
+        font-family: standard.$secondary-font;
+    }
+
+}

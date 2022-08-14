@@ -1,0 +1,10 @@
+@use "../standard";
+
+.skills-row {
+    width: 60%;
+}
+
+#skills {
+    scroll-margin-top: standard.$scroll-margin-length;
+    max-width: 1040px;
+}
