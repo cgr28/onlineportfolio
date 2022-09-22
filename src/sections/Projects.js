@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import Header from "../components/Header";
 import "./Projects.scss"
 import simplyWeather from "../imgs/simplyweather.jpg"
-import mazeGenerator from "../imgs/maze.svg"
+import mazeGenerator from "../imgs/maze.png"
 import multidest from "../imgs/multidest.jpg"
 import portfolio from "../imgs/portfolio.jpg"
 import slidingPuzzle from "../imgs/15-puzzle.jpg"
