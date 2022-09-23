@@ -7,7 +7,7 @@ export default function Resume() {
     return (
         <div className="resume container mx-auto mb-5" id="resume">
             <Header title={"Resume"} caption={"My resume.  Ready and available for download."} />
-            <a href={process.env.PUBLIC_URL + "colbe-roberson-resume.pdf"} download data-aos="fade-down" data-aos-once="true"><div class="download-button text-center mx-auto mb-3">Download</div></a>
+            <a href={resume} download data-aos="fade-down" data-aos-once="true"><div class="download-button text-center mx-auto mb-3">Download</div></a>
             <img className="mx-auto resume-img" src={resume} alt="My resume" data-aos="fade-down" data-aos-once="true" />
         </div>
     )

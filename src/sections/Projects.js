@@ -2,11 +2,12 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import Header from "../components/Header";
 import "./Projects.scss"
-import simplyWeather from "../imgs/simplyweather.jpg"
-import mazeGenerator from "../imgs/maze.png"
-import multidest from "../imgs/multidest.jpg"
-import portfolio from "../imgs/portfolio.jpg"
-import slidingPuzzle from "../imgs/15-puzzle.jpg"
+import simplyWeather from "../imgs/simplyweather-projects.svg"
+import mazeGenerator from "../imgs/maze-creator-projects.jpg"
+import multidest from "../imgs/multidest-projects.svg"
+import portfolio from "../imgs/portfolio-logo-projects.svg"
+import slidingPuzzle from "../imgs/15-puzzle-projects.jpg"
+import autoCensor from "../imgs/auto-censor-projects.svg"
 
 export default function Projects() {
 
@@ -18,10 +19,10 @@ export default function Projects() {
                     <ProjectCard title={"Simply Weather"} image={simplyWeather} caption={"Simply Weather is a website that lets you view the weather anywhere in the world.  You may also favorite locations so that they appear on the home page.  I used the OpenWeatherMap API to receive the weather data, then displayed it using Django, CSS, HTML, and JS."} gitLink={"https://github.com/cgr28/simplyweather"} webLink={"https://simplyweatherapp.herokuapp.com/"} />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <ProjectCard title={"Maze Generator/Solver"} gif={"https://raw.githubusercontent.com/cgr28/maze-creator-and-solver/main/imgs/walkthrough.gif"} image={mazeGenerator} caption={"This is a website I created that generates mazes and solutions using one of the many algorithms I implemented.  I wrote the backend in Python Flask and the frontend was made using CSS, HTML, JS, and Bootstrap."} gitLink={"https://github.com/cgr28/maze-creator-and-solver"} webLink={"https://maze-creator-and-solver.herokuapp.com/"} />
+                    <ProjectCard title={"Maze Creator/Solver"} gif={"https://raw.githubusercontent.com/cgr28/maze-creator-and-solver/main/imgs/walkthrough.gif"} image={mazeGenerator} caption={"This is a website I created that generates mazes and solutions using one of the many algorithms I implemented.  I wrote the backend in Python Flask and the frontend was made using CSS, HTML, JS, and Bootstrap."} gitLink={"https://github.com/cgr28/maze-creator-and-solver"} webLink={"https://maze-creator-and-solver.herokuapp.com/"} />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <ProjectCard title={"Auto Censor"} image={"https://raw.githubusercontent.com/cgr28/autocensor/main/censor-example.png"} caption={"This is a Python script I wrote that allows you to censor a given set of words in an image.  I used Tesseract OCR for character recognition and OpenCV to load and edit the image."} gitLink={"https://github.com/cgr28/autocensor"} webLink={"https://github.com/cgr28/autocensor#auto-censor"} />
+                    <ProjectCard title={"Auto Censor"} image={autoCensor} caption={"This is a Python script I wrote that allows you to censor a given set of words in an image.  I used Tesseract OCR for character recognition and OpenCV to load and edit the image."} gitLink={"https://github.com/cgr28/autocensor"} webLink={"https://github.com/cgr28/autocensor#auto-censor"} />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <ProjectCard title={"MultiDest"} image={multidest} caption={"I created this website in a group with 4 other students.  MultiDest is a multi-stop route optimizer.  This means when you provide it with multiple stops, it will calculate the route that gets you there in the shortest distance or time.  It was created using Python Dash."} gitLink={"https://github.com/It-s-Saturday/MultiDest_Dash"} webLink={"https://multidest.herokuapp.com/"} />
