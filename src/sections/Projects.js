@@ -12,13 +12,13 @@ export default function Projects() {
 
     return (
         <div className="projects container mx-auto " id="projects">
-            <Header title={"Projects"} caption={"These are some of the various projects I've made over the years."} />
+            <Header title={"Projects"} caption={"These are some of the various projects I've made over the years.  Hover over an image to see a short demo."} />
             <div className="row projects-row mx-auto" style={{width: "fit-content"}}>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <ProjectCard title={"Simply Weather"} image={simplyWeather} caption={"Simply Weather is a website that lets you view the weather anywhere in the world.  You may also favorite locations so that they appear on the home page.  I used the OpenWeatherMap API to receive the weather data, then displayed it using Django, CSS, HTML, and JS."} gitLink={"https://github.com/cgr28/simplyweather"} webLink={"https://simplyweatherapp.herokuapp.com/"} />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <ProjectCard title={"Maze Generator/Solver"} image={mazeGenerator} caption={"This is a website I created that generates mazes and solutions using one of the many algorithms I implemented.  I wrote the backend in Python Flask and the frontend was made using CSS, HTML, JS, and Bootstrap."} gitLink={"https://github.com/cgr28/maze-creator-and-solver"} webLink={"https://maze-creator-and-solver.herokuapp.com/"} />
+                    <ProjectCard title={"Maze Generator/Solver"} gif={"https://raw.githubusercontent.com/cgr28/maze-creator-and-solver/main/imgs/walkthrough.gif"} image={mazeGenerator} caption={"This is a website I created that generates mazes and solutions using one of the many algorithms I implemented.  I wrote the backend in Python Flask and the frontend was made using CSS, HTML, JS, and Bootstrap."} gitLink={"https://github.com/cgr28/maze-creator-and-solver"} webLink={"https://maze-creator-and-solver.herokuapp.com/"} />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <ProjectCard title={"Auto Censor"} image={"https://raw.githubusercontent.com/cgr28/autocensor/main/censor-example.png"} caption={"This is a Python script I wrote that allows you to censor a given set of words in an image.  I used Tesseract OCR for character recognition and OpenCV to load and edit the image."} gitLink={"https://github.com/cgr28/autocensor"} webLink={"https://github.com/cgr28/autocensor#auto-censor"} />
