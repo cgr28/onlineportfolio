@@ -16,7 +16,7 @@ export default function Connect() {
                 <SkillBar name={"Problem Solving"} level={80} num={5} />
                 <SkillBar name={"Data Structures and Algos"} level={85} num={6} />
                 <SkillBar name={"MySQL"} level={60} num={7} />
-                <SkillBar name={"React"} level={70} num={8}/>
+                <SkillBar name={"React"} level={75} num={8}/>
                 <SkillBar name={"Java"} level={65} num={9}/>
             </div>
         </div>

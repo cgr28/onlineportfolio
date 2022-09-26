@@ -84,7 +84,7 @@ export default function Projects() {
             gif={portfolioGif}
             image={portfolio}
             caption={
-              "The page you're currently visiting.  My online portfolio is a place where I showcase any skills that I've been picking up or projects that I've been working on. Overall it's a place where you can learn more about me and what I've been up to. This website was made using ReactJS."
+              "The page you're currently visiting!  My online portfolio is a place where I showcase any skills that I've been picking up or projects that I've been working on. Overall it's a place where you can learn more about me and what I've been up to. This website was made using ReactJS."
             }
             gitLink={"https://github.com/cgr28/onlineportfolio"}
             webLink={"https://colbe.me"}
