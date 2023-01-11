@@ -18,7 +18,6 @@ export default function Navigation() {
       <Navbar.Collapse id="navbarNav" className="justify-content-end">
         <Nav>
           <Nav.Link className="nav-item" href="#projects">Projects</Nav.Link>
-          <Nav.Link className="nav-item" href="#skills">Skills</Nav.Link>
           <Nav.Link className="nav-item" href="#experience">Experience</Nav.Link>
           <Nav.Link className="nav-item" href="#resume">Resume</Nav.Link>
         </Nav>

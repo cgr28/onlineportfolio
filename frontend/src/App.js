@@ -1,7 +1,7 @@
 import './App.scss';
 import Home from "./sections/Home"
 import Projects from "./sections/Projects"
-import Skills from "./sections/Skills"
+// import Skills from "./sections/Skills"
 import Experience from "./sections/Experience"
 import Resume from "./sections/Resume"
 import AOS from 'aos';
@@ -17,7 +17,6 @@ function App() {
     <>
       <Home />
       <Projects />
-      <Skills />
       <Experience />
       <Resume />
     </>

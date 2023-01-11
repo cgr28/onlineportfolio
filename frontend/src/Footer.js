@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
                 <div className="mt-2 e-mail"> 
                     <p>email: <a href="mailto:cgr28@njit.edu">cgr28@njit.edu</a> / <a href="mailto:roberson.colbe@gmail.com">roberson.colbe@gmail.com</a></p>
-                    <p>updated: 9/26/2022</p>
+                    <p>updated: 1/11/2023</p>
                 </div>
             </div>
 
