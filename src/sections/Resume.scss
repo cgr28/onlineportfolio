@@ -1,6 +1,10 @@
 @use "../standard";
 
-.resume {    
+.resume {
+
+  .pdf {
+    border: 1px solid black;
+  }
   
   .resume-img {
     display: block;
