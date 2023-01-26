@@ -3,7 +3,7 @@ import "./ExperienceCard.scss";
 
 export default function ExperienceCard({ period, title, type, caption, position, image }) {
   return (
-    <div className="card mb-5 text-left experience-card mx-auto" data-aos="fade-down" data-aos-once="true">
+    <div className="card mb-5 text-left experience-card mx-auto" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-once="true">
       <div className="row no-gutters">
         <div className="col-md-4 m-auto text-center">
           <img src={image} className="card-img" alt={`${title} logo`} />

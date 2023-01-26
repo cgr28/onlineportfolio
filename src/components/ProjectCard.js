@@ -11,7 +11,7 @@ export default function ProjectCard({title, image, caption, gitLink, webLink, gi
     }
 
     return (
-        <div className="project-card card mx-auto mb-5 pb-5" style={{width: "100%"}} data-aos="fade-down" data-aos-once="true">
+        <div className="project-card card mx-auto mb-5 pb-5" style={{width: "100%"}} data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-once="true">
             <img className="card-img-top" src={image} alt={`${title}`} onMouseLeave={handleMouseLeave} onMouseOver={handleMouseOver} style={{height: "18rem"}} />
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>

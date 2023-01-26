@@ -10,8 +10,8 @@ export default function Resume() {
     return (
         <div className="resume container mx-auto mb-5" id="resume">
             <Header title={"Resume"} caption={"My resume.  Ready and available for download."} />
-            <a href="./colbe-resume-portfolio.pdf" download data-aos="fade-down" data-aos-once="true"><div class="download-button text-center mx-auto mb-3">Download</div></a>
-            <div className="d-flex justify-content-center">
+            <a href="./colbe-resume-portfolio.pdf" download data-aos="fade-down" data-aos-once="true" data-aos-anchor-placement="center-bottom"><div class="download-button text-center mx-auto mb-3">Download</div></a>
+            <div className="d-flex justify-content-center" data-aos="fade-down" data-aos-once="true" data-aos-anchor-placement="center-bottom">
                 <Document file="./colbe-resume-portfolio.pdf" onLoadError={console.error} className={"pdf"}>
                     <Page pageNumber={1} width={(window.screen.width <= 1024 ? window.screen.width : 1024)-24} /> 
                 </Document>
